@@ -35,3 +35,11 @@ object-fit: cover;} }
 .galeria { padding: 40px 0;}
 
 @media (min-width: 520px) { .galeria { padding: 80px 120px;}}
+
+
+
+
+.galeria-destacados { 
+    padding: 40px 0;}
+
+@media (min-width: 520px) { .galeria-destacados { padding: 20px;}}
