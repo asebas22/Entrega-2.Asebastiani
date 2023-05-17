@@ -48,6 +48,6 @@ object-fit: cover;} }
 
 .insta , .whasa , .facebu { width: 100px;}
 
-@media (min-width: 720px) { .insta , .whasa , .facebu { width: 140px;}}
+@media (min-width: 1200px) { .insta , .whasa , .facebu { width: 140px;}}
 
 .footer-cont { margin: 140px;}
