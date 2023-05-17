@@ -32,3 +32,6 @@ object-fit: cover;} }
 @media (min-width: 720px) { .text1 { font-size: 90px;}}
 
 
+.galeria { padding: 40px 0;}
+
+@media (min-width: 520px) { .galeria { padding: 80px 120px;}}
