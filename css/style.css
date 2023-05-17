@@ -1,3 +1,5 @@
+
+
 .navbar-brand img { width: 50px;}
 
 
@@ -12,3 +14,17 @@
 .nav-link:focus , .nav-link:hover {color: blueviolet;}
 
 .navbar-toggler:focus { box-shadow: none;}
+
+
+
+.imgini { width: 100%; }
+
+@media (min-width: 570px) {.imgini { width: auto; 
+height: auto;
+object-fit: cover;} }
+
+.text1 { font-size: 40px;}
+
+@media (min-width: 720px) { .text1 { font-size: 90px;}}
+
+
