@@ -1,4 +1,8 @@
 
+body {
+    background-color: rgb(216, 243, 234);
+
+}
 
 .navbar-brand img { width: 50px;}
 
@@ -23,7 +27,7 @@
 height: auto;
 object-fit: cover;} }
 
-.text1 { font-size: 40px;}
+.text1 { font-size: 30px;}
 
 @media (min-width: 720px) { .text1 { font-size: 90px;}}
 
