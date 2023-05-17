@@ -42,4 +42,12 @@ object-fit: cover;} }
 .galeria-destacados { 
     padding: 40px 0;}
 
-@media (min-width: 520px) { .galeria-destacados { padding: 20px;}}
+@media (min-width: 720px) { .galeria-destacados { padding: 20px;}}
+
+
+
+.insta , .whasa , .facebu { width: 100px;}
+
+@media (min-width: 720px) { .insta , .whasa , .facebu { width: 140px;}}
+
+.footer-cont { margin: 140px;}
