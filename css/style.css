@@ -1,0 +1,14 @@
+.navbar-brand img { width: 50px;}
+
+
+.collapse.navbar-collapse { 
+    flex-grow: inherit;
+}
+
+.navbar a { color: cornflowerblue;}
+
+.navbar .navbar-toggler{ border-color: cornflowerblue;}
+
+.nav-link:focus , .nav-link:hover {color: blueviolet;}
+
+.navbar-toggler:focus { box-shadow: none;}
