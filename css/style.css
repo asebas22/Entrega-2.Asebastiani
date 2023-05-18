@@ -32,9 +32,7 @@ p {font-family: Arial, Helvetica, sans-serif; }
 height: auto;
 object-fit: cover;} }
 
-.text1 { font-size: 50px;}
 
-@media (min-width: 720px) { .text1 { font-size: 90px;}}
 
 
 .galeria { padding: 40px 0;}
@@ -48,6 +46,8 @@ object-fit: cover;} }
     padding: 40px 0;}
 
 @media (min-width: 720px) { .galeria-destacados { padding: 20px;}}
+
+
 
 
 
