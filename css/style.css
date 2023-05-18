@@ -63,8 +63,11 @@ padding: 10px;}
     .galeria-conteiner {
         display: flex ;
         flex-direction: column;
+        padding: 20px;
     }
 
+    .galeria-titulo { text-align: center;
+    }
 
     .galeria-fotos{ 
 
