@@ -8,7 +8,7 @@ h1, h2 , h3 { font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans
 
 p {font-family: Arial, Helvetica, sans-serif; }
 
-.navbar-brand img { width: 50px;}
+.imgtop { max-width: 30px;}
 
 
 
@@ -51,11 +51,7 @@ object-fit: cover;} }
 
 
 
-.insta , .whasa , .facebu { width: 90px;}
 
-@media (min-width: 1200px) { .insta , .whasa , .facebu { width: 140px;
-    
-object-fit: cover;}}
 
 
 
