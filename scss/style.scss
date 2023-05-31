@@ -2,6 +2,16 @@ $color-p: rgb(73, 15, 114) ;
 
 $color-h: rgb(9, 19, 83);
 
+$empresas: (emp1:red, emp2:blue, emp3:green,emp4:black,emp5:brown);
+
+
+
+@each $emp, $color in $empresas{
+    .#{$emp} {color:$color;}
+} 
+
+
+
 h1 { color:$color-h}
 
 span { color:$color-h}
