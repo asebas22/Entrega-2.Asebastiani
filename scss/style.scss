@@ -1,0 +1,61 @@
+body { 
+    background-color: rgb(216, 243, 234);
+
+}
+
+h1, h2 , h3 { font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {font-family: Arial, Helvetica, sans-serif; }
+
+.imgtop { max-width: 30px;}
+
+
+
+.collapse.navbar-collapse { 
+    flex-grow: inherit;
+}
+
+.navbar a { color: cornflowerblue;}
+
+.navbar .navbar-toggler{ border-color: cornflowerblue;}
+
+.nav-link:focus , .nav-link:hover {color: blueviolet;}
+
+.navbar-toggler:focus { box-shadow: none;}
+
+
+
+.imgini { width: 100%; }
+
+@media (min-width: 570px) {.imgini { width: auto; 
+height: auto;
+object-fit: cover;} }
+
+
+
+
+.galeria { padding: 40px 0;}
+
+@media (min-width: 520px) { .galeria { padding: 80px 120px;}}
+
+
+
+
+.galeria-destacados { 
+    padding: 40px 0;}
+
+@media (min-width: 720px) { .galeria-destacados { padding: 20px;}}
+
+
+
+
+
+
+
+
+@if (3>2) { .galeria-titulo { color: rgb(18, 11, 97);}}
+
+@for $v-prod from 1 through 3 { 
+    .prod-img-#{$v-prod} { width: 30%; }
+}
