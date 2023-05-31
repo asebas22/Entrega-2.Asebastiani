@@ -1,3 +1,43 @@
+h1 {
+  color: rgb(9, 19, 83);
+}
+
+span {
+  color: rgb(9, 19, 83);
+}
+
+p {
+  color: rgb(73, 15, 114);
+}
+
+.texto-prod-titu {
+  color: rgb(64, 50, 218);
+}
+
+.prod-img-1 {
+  padding: 4px;
+}
+
+.prod-img-2 {
+  padding: 4px;
+}
+
+.prod-img-3 {
+  padding: 4px;
+}
+
+.prod-img-4 {
+  padding: 4px;
+}
+
+.prod-img-5 {
+  padding: 4px;
+}
+
+.prod-img-6 {
+  padding: 4px;
+}
+
 body {
   background-color: rgb(216, 243, 234);
 }
@@ -62,21 +102,6 @@ p {
   .galeria-destacados {
     padding: 20px;
   }
-}
-.galeria-titulo {
-  color: rgb(18, 11, 97);
-}
-
-.prod-img-1 {
-  width: 30%;
-}
-
-.prod-img-2 {
-  width: 30%;
-}
-
-.prod-img-3 {
-  width: 30%;
 }
 
 /*# sourceMappingURL=style.css.map */

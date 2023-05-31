@@ -1,3 +1,27 @@
+$color-p: rgb(73, 15, 114) ;
+
+$color-h: rgb(9, 19, 83);
+
+h1 { color:$color-h}
+
+span { color:$color-h}
+
+p { color: $color-p;}
+
+@if (3>2) { .texto-prod-titu { color: rgb(64, 50, 218);}}
+
+@for $v-prod from 1 through 6 { 
+    .prod-img-#{$v-prod} { padding: 4px; }
+}
+
+
+
+
+
+
+
+
+
 body { 
     background-color: rgb(216, 243, 234);
 
@@ -53,9 +77,3 @@ object-fit: cover;} }
 
 
 
-
-@if (3>2) { .galeria-titulo { color: rgb(18, 11, 97);}}
-
-@for $v-prod from 1 through 3 { 
-    .prod-img-#{$v-prod} { width: 30%; }
-}
