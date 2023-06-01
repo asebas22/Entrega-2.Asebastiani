@@ -120,4 +120,31 @@ p {
   }
 }
 
+
+
+.body-cc {background: linear-gradient(white,rgb(206, 206, 227));}
+
+.animacion-sn {width: 170px;
+height: 30px;
+background-color: rgb(129, 118, 246);
+
+transition: all 20s;}
+
+.animacion-sn:hover { 
+transform: translate(20000px,-20000px);}
+
+.animacion-marca { width: auto;
+height: auto; 
+animation-name: marca;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in;
+animation-duration: 5s;
+animation-delay: 1s;}
+
+@keyframes marca { 
+    0% { opacity:0}
+    100% { opacity:2;}
+}
+
+
 /*# sourceMappingURL=style.css.map */
