@@ -1,3 +1,7 @@
+* { padding: 0;
+margin: 0;
+box-sizing: border-box;}
+
 .emp1 {
   color: red;
 }
@@ -89,6 +93,10 @@ p {
 .navbar-toggler:focus {
   box-shadow: none;
 }
+
+
+.text1 {transform: translate(0px,25px);}
+
 
 .imgini {
   width: 100%;
