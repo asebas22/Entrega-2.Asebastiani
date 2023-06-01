@@ -4,7 +4,7 @@ $color-h: rgb(9, 19, 83);
 
 $empresas: (emp1:red, emp2:blue, emp3:green,emp4:black,emp5:brown);
 
-
+.bodsssssssy {padding: 0;}
 
 @each $emp, $color in $empresas{
     .#{$emp} {color:$color;}
@@ -23,7 +23,6 @@ p { color: $color-p;}
 @for $v-prod from 1 through 6 { 
     .prod-img-#{$v-prod} { padding: 4px; }
 }
-
 
 
 
