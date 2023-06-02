@@ -1,15 +1,24 @@
+$color-p: rgb(15, 58, 127) ;
 
-$color-p: rgb(208, 110, 25) ;
-
-$color-h: rgb(9, 19, 83);
+$color-h: rgb(4, 19, 115);
 
 $empresas: (emp1:red, emp2:blue, emp3:green,emp4:black,emp5:brown);
 
 
+* { padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+    
 
 @each $emp, $color in $empresas{
     .#{$emp} {color:$color;}
 } 
+
+@mixin transform-traslate { transform: translate(0px,25px);}
+
+.text1 {@include transform-traslate}
+
+.texto-prod-titu {@include transform-traslate}
 
 
 
@@ -17,7 +26,8 @@ span { color:$color-h}
 
 p { color: $color-p;}
 
-@if (3>2) { .texto-prod-titu { color: rgb(64, 50, 218);}}
+@if (3>2) { .texto-prod-titu { color: rgb(24, 14, 125);
+    }}
 
 @for $v-prod from 1 through 6 { 
     .prod-img-#{$v-prod} { padding: 4px; }
@@ -77,3 +87,34 @@ object-fit: cover;} }
 
 @media (min-width: 720px) { .galeria-destacados { padding: 20px;}}
 
+
+
+.body-cc {background: linear-gradient(white,rgb(206, 206, 227));}
+
+
+
+
+ 
+.animacion-sn {width: 20px;
+    height: 20px;
+    background-color: rgb(129, 118, 246);
+    
+    transition: all 4s;} 
+    
+    .animacion-sn:hover { width: 350px;
+      height: 20px;
+    }
+    
+    .animacion-marca { width: auto;
+    height: auto; 
+    animation-name: marca;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 5s;
+    animation-delay: 1s;}
+    
+    @keyframes marca { 
+        0% { opacity:0}
+        100% { opacity:2;}
+    }
+    

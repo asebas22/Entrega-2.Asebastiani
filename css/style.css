@@ -1,6 +1,8 @@
-* { padding: 0;
-margin: 0;
-box-sizing: border-box;}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 .emp1 {
   color: red;
@@ -22,17 +24,24 @@ box-sizing: border-box;}
   color: brown;
 }
 
-span {
-  color: rgb(9, 19, 83);
-}
-
-p {
-  color: rgb(73, 15, 114);
+.text1 {
+  transform: translate(0px, 25px);
 }
 
 .texto-prod-titu {
-  color: rgb(64, 50, 218);
-  transform: translate(0px,25px) ;
+  transform: translate(0px, 25px);
+}
+
+span {
+  color: rgb(4, 19, 115);
+}
+
+p {
+  color: rgb(15, 58, 127);
+}
+
+.texto-prod-titu {
+  color: rgb(24, 14, 125);
 }
 
 .prod-img-1 {
@@ -95,10 +104,6 @@ p {
   box-shadow: none;
 }
 
-
-.text1 {transform: translate(0px,25px);}
-
-
 .imgini {
   width: 100%;
 }
@@ -128,33 +133,39 @@ p {
     padding: 20px;
   }
 }
+.body-cc {
+  background: linear-gradient(white, rgb(206, 206, 227));
+}
 
+.animacion-sn {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(129, 118, 246);
+  transition: all 4s;
+}
 
-
-.body-cc {background: linear-gradient(white,rgb(206, 206, 227));}
-
-.animacion-sn {width: 20px;
-height: 20px;
-background-color: rgb(129, 118, 246);
-
-transition: all 4s;}
-
-.animacion-sn:hover { width: 350px;
+.animacion-sn:hover {
+  width: 350px;
   height: 20px;
 }
 
-.animacion-marca { width: auto;
-height: auto; 
-animation-name: marca;
-animation-iteration-count: infinite;
-animation-timing-function: ease-in;
-animation-duration: 5s;
-animation-delay: 1s;}
-
-@keyframes marca { 
-    0% { opacity:0}
-    100% { opacity:2;}
+.animacion-marca {
+  width: auto;
+  height: auto;
+  animation-name: marca;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 5s;
+  animation-delay: 1s;
 }
 
+@keyframes marca {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 2;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
