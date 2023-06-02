@@ -32,6 +32,7 @@ p {
 
 .texto-prod-titu {
   color: rgb(64, 50, 218);
+  transform: translate(0px,25px) ;
 }
 
 .prod-img-1 {
@@ -132,14 +133,15 @@ p {
 
 .body-cc {background: linear-gradient(white,rgb(206, 206, 227));}
 
-.animacion-sn {width: 170px;
-height: 30px;
+.animacion-sn {width: 20px;
+height: 20px;
 background-color: rgb(129, 118, 246);
 
-transition: all 20s;}
+transition: all 4s;}
 
-.animacion-sn:hover { 
-transform: translate(20000px,-20000px);}
+.animacion-sn:hover { width: 350px;
+  height: 20px;
+}
 
 .animacion-marca { width: auto;
 height: auto; 
