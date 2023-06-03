@@ -10,6 +10,7 @@ $empresas: (emp1:red, emp2:blue, emp3:green,emp4:black,emp5:brown);
     box-sizing: border-box;}
     
 
+
 @each $emp, $color in $empresas{
     .#{$emp} {color:$color;}
 } 
